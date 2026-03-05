@@ -1,0 +1,21 @@
+@keyframes slideGrow {
+  from {
+    transform: translateX(-60px) scale(0.9);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(50) scale(3);
+    opacity: 1;
+    animation: bounce 1s ease-in-out 200ms;
+  }
+}
+
+.box {
+  width: 200px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  animation: slideGrow 600ms ease-out;
+ }
+
