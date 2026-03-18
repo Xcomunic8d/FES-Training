@@ -354,12 +354,21 @@ HIGHLIGHTS
 .book__ratings {
   margin-bottom: 8px;
   color: #fabf2a;
-  image:
+  text-align: center;
 }
 
 .book__price--normal {
   text-decoration: line-through;
   padding-right: 6px;
   color: #bfbfbf;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book__price {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
